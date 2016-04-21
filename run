@@ -7,5 +7,6 @@ popd
 
 pushd overlay_ws
 catkin config --extend ../catkin_ws/install
+#source ../catkin_ws/install/setup.bash
 catkin build
 popd 
