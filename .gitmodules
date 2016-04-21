@@ -1,0 +1,6 @@
+[submodule "catkin_ws/src/catkin"]
+	path = catkin_ws/src/catkin
+	url = https://github.com/ros/catkin
+[submodule "overlay_ws/src/genmsg"]
+	path = overlay_ws/src/genmsg
+	url = https://github.com/ros/genmsg

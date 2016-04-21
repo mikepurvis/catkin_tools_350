@@ -1,0 +1,11 @@
+#!/bin/bash
+
+pushd catkin_ws
+catkin config --install --no-extend
+catkin build
+popd
+
+pushd overlay_ws
+catkin config --extend ../catkin_ws/install
+catkin build
+popd 
